@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { 
-    background:rgb(30,30,40); 
+    background: rgba(8, 79, 140, 0.3); 
 }
 
 form { 
@@ -11,7 +11,7 @@ form {
 }
 
 h2 {
-    color: white;
+    color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 8px;
@@ -19,20 +19,20 @@ h2 {
 
 .msg-info {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 1.1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form {
-    color:white;
+    color:#084F8C;
     width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:500;
     font-size: 18px;
     line-height: 22px;
     background-color: transparent;
-    border:2px solid white;
+    border:2px solid #084F8C;
     border-radius: 5px;
     padding: 13px;
     margin-bottom: 15px;
@@ -50,7 +50,7 @@ h2 {
   .botao {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 100%;
-    background:white;
+    background:#084F8C;
     border-radius:5px;
     border:0;
     cursor:pointer;
