@@ -2,3 +2,49 @@
     height: 25px;
     width: 25px;
 }
+
+.feed-container {
+    text-align: center;
+}
+
+.feed-post {
+    margin-top: 10px;
+}
+
+.post {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.post .usuario {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.post .cargo {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+
+.cargo { 
+    font-size: 0.7em;
+}
+
+.post .postagem {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.comentar {
+    position: absolute;
+    top: 350px;
+    left: 170px;
+}
