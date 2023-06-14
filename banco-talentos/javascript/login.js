@@ -4,7 +4,7 @@ function login() {
 
     if (username === 'admin' && password === 'admin') {
         alert('Login bem-sucedido!');
-        window.location.href = 'https://www.nickelodeon.com.br/';
+        window.location.href = '../html/login.html';
     } else {
         alert('Acesso negado. Usuário ou senha incorretos.');
     }
