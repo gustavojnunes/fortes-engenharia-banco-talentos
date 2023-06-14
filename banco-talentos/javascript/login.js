@@ -4,7 +4,7 @@ function login() {
 
     if (username === 'admin' && password === 'admin') {
         alert('Login bem-sucedido!');
-        window.location.href = '../html/login.html';
+        window.location.href = '../html/feed.html';
     } else {
         alert('Acesso negado. Usuário ou senha incorretos.');
     }
