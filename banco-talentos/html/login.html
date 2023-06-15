@@ -4,13 +4,25 @@
     <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
+    
+    <div class="logo-container">
+        <img src="../assets/fortes icon.png" alt="Logo fortes" srcset="">
+        <p>Querendo integrar seus funcionários e talentos. Criamos um banco de talentos em formato de rede social
+            para achar os interesses dos seus funcionários e projetar eventos e competições para aumentar a interação, colaboração e amizade
+            entre seus colaboradores.
+        </p>
+    </div>
+    
     <div class="login-container">
-        <img src="https://fortes.ind.br/wp-content/uploads/2022/12/FORTES_LOGOMARCA.png" class="logo_fortes">
-        <label for="username">Usuário</label>
+        <div class="login">
+            <h3>Login</h3>
+        <label for="username">CPF ou Email</label>
         <input type="text" id="username" name="username">
         <label for="password">Senha</label>
         <input type="password" id="password" name="password">
         <button onclick="login()">Entrar</button>
+        <small>Esqueceu a senha?</small>
+    </div>
     </div>
 
     <script src="../javascript/login.js"></script>
