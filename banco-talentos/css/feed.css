@@ -43,6 +43,31 @@
     left: 10px;
 }
 
+.post .data {
+    position: absolute;
+    top: 37px;
+    left: 130px;
+}
+
+.post .data-1 {
+    position: absolute;
+    top: 37px;
+    left: 140px;
+}
+
+
+.post .adicionar {
+    position: absolute;
+    top: 30px;
+    left: 220px;
+}
+
+.post .adicionar1 {
+    position: absolute;
+    top: 30px;
+    left: 210px;
+}
+
 .comentar {
     position: absolute;
     top: 330px;
