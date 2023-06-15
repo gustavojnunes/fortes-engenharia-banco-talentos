@@ -85,3 +85,13 @@
     padding-bottom:10px;
     border-radius: 20px;
 }
+
+.barra-lateral {
+ position: absolute;
+ width: 305px;
+ height: 1003px;
+ left: -40.5px;
+ top: 76.5px;
+ background: linear-gradient(0deg, rgba(56, 160, 255, 0.6), rgba(56, 160, 255, 0.6)), rgba(5, 17, 242, 0.9);
+ border-radius: 25px;
+}
