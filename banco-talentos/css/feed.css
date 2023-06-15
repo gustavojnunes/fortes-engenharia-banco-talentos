@@ -88,9 +88,9 @@
 
 .barra-lateral {
  position: absolute;
- width: 305px;
- height: 1003px;
- top: 76.5px;
+ width: 250px;
+ height: 1050px;
+ top: 68px;
  background: linear-gradient(0deg, rgba(56, 160, 255, 0.6), rgba(56, 160, 255, 0.6)), rgba(5, 17, 242, 0.9);
  border-radius: 25px;
  display: flex;
@@ -150,14 +150,17 @@
 }
 
 .perfil {
-    text-align: center;
     border-bottom: solid 1px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nome-perfil{
     font-size: 18px;
-    display: block;
     margin-bottom: 5px;
+    margin-top: 2px;
 }
 
 #edite-perfil{
@@ -166,4 +169,149 @@
     border-radius: 5px;
     background-color: #D9D9D9;
     color: rgba(0,0,0,0.5);
+}
+
+.Icone-perfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 34px;
+    margin-top: 10px;
+
+}
+
+.lembretes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+#lembretes-texto {
+    width: 230px;
+    height: 35px;
+    background-color: #D9D9D9;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    padding: 3px;
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+}
+
+.pendencias-titulo{
+     font-size: 17px;
+     color: #FFFFFF;
+}
+
+.lembretes-titulo {
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+#pendencias-texto {
+    width: 240px;
+    height: 50px;
+    background-color: #D9D9D9;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: auto;
+    padding-top: 8px;
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#pendencias-texto a {
+   text-decoration: none;
+   color: rgba(0,0,0,0.5);
+}
+
+.amigos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#amigos-titulo {
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.amigo-nome {
+    display: inline-block;
+}
+
+.grupos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo-titulo {
+    margin-top: 6px;
+    border-bottom: solid 1px black;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.grupo-container {
+    background-color: #D9D9D9;
+    width: 235px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 140px;
+}
+
+#nome-grupo {
+    margin-bottom: 2px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#numero-membros{
+    font-size: 13px;
+}
+
+#ver-grupo {
+    width: 220px;
+    align-self: center;
+    border-radius: 5px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: auto;
+}
+
+
+#ajuda {
+    margin-top: 40px;
+    width: 240px;
+    align-self: center;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+footer {
+    position: absolute;
+    top: 1300px;
+    left: 500px;
+}
+
+footer h3 {
+    display: inline-block;
+    font-size: 20px;
+}
+footer p {
+    display: inline-block;
+    font-size: 15px;
 }
