@@ -30,10 +30,15 @@
     <main>
     <div class="feed-container">
       <div class="feed-post">
+        <div class="feed-topo"></div>
+        <img src="../assets/mulher.png" alt="Icone" srcset="" class="Icone-central">
         <input type="text-area" name="" id="" class="post-texto" placeholder="O que você está pensando?">
-        <button id="criar-lembrete">Criar Lembrete</button>
-        <button id="atualizar" onclick="atualizarPagina()">Atualizar</button>
-        <button id="postar">Postar agora</button>
+      </div>
+          <div class="botoes-feed">
+            <button id="criar-lembrete">Criar Lembrete</button>
+            <button id="atualizar" onclick="atualizarPagina()">Atualizar</button>
+            <button id="postar">Postar agora</button>
+          </div>
       </div>
         <div class="post">
           <div class="usuario">
@@ -74,9 +79,9 @@
     <div class="barra-lateral">
        <div class="perfil">
            <img src="../assets/mulher.png" alt="Icone" srcset="" class="Icone">  
-           <strong>Mariana Dalmagrio</strong>
+           <p class="nome-perfil">Mariana Dalmagrio</p>
              <button id="edite-perfil">Edite seu perfil</button>
-           <strong>Gerente de Marketing</strong>
+           <p class="cargo">Gerente de Marketing</p>
        </div> 
        <div class="lembretes">
            <strong>Lembretes</strong>
