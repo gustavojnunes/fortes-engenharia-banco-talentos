@@ -89,9 +89,7 @@
 .barra-lateral {
  position: absolute;
  width: 305px;
- height: 1003px;
- left: -40.5px;
- top: 76.5px;
- background: linear-gradient(0deg, rgba(56, 160, 255, 0.6), rgba(56, 160, 255, 0.6)), rgba(5, 17, 242, 0.9);
- border-radius: 25px;
+ height: 1000px;
+ top: 53px;
+ background: linear-gradient(0deg, rgba(56, 160, 255, 0.6), rgba(56, 160, 255, 0.6)), rgba(5, 17, 242, 0.205);
 }
