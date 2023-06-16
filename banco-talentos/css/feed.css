@@ -64,6 +64,11 @@
     left: 140px;
 }
 
+.post .data-2 {
+    position: absolute;
+    top: 37px;
+    left: 140px;
+}
 
 .post .adicionar {
     position: absolute;
@@ -77,6 +82,12 @@
     top: 30px;
     left: 210px;
     font-family: 'Inter', sans-serif;
+}
+
+.post .adicionar2 {
+    position: absolute;
+    top: 30px;
+    left: 220px;
 }
 
 .comentar {
