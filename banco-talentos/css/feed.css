@@ -55,6 +55,11 @@
     left: 140px;
 }
 
+.post .data-2 {
+    position: absolute;
+    top: 37px;
+    left: 140px;
+}
 
 .post .adicionar {
     position: absolute;
@@ -66,6 +71,12 @@
     position: absolute;
     top: 30px;
     left: 210px;
+}
+
+.post .adicionar2 {
+    position: absolute;
+    top: 30px;
+    left: 220px;
 }
 
 .comentar {
