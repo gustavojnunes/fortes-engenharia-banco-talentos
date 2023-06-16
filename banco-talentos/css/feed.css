@@ -37,6 +37,7 @@
 .usuario {
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
+    color: #084F8C;
 }
 
 .post .usuario {
@@ -109,10 +110,12 @@
 
 .adicionar1:hover {
     cursor: pointer;
+    color: #EAEAEA;
 }
 
 .adicionar2:hover {
     cursor: pointer;
+    color: #EAEAEA;
 }
 
 .adicionar1 {
@@ -144,6 +147,7 @@
     margin-top: 15px;
     background-color: #d9d9d9;
     font-family: 'Inter', sans-serif;
+    color: rgba(0,0,0,0.3);
 }
 
 .img-post {
@@ -201,11 +205,16 @@
     top: 505px;
     left: 35px;
 }
+.amigo-nome {
+    color: #FFFFFF;
+    
+}
 
 .barra-lateral .nome-2 {
     position: absolute;
     top: 495px;
     left: 65px;
+    color: #FFFFFF;
 }
 .barra-lateral .cargo-2{
     position: absolute;
@@ -227,6 +236,7 @@
     position: absolute;
     top: 565px;
     left: 68px;
+    color: #FFFFFF;
 }
 
 .barra-lateral .cargo-3{
@@ -254,6 +264,7 @@
     border-radius: 5px;
     color: rgba(0,0,0,0.3);
     font-size: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 #criar-lembrete{
@@ -328,6 +339,12 @@
     background-color: #D9D9D9;
     color: rgba(0,0,0,0.5);
     font-family: 'Inter', sans-serif;
+}
+
+#edite-perfil:hover {
+    background-color:   #00D95E;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .Icone-perfil{
@@ -451,8 +468,13 @@
     border-radius: 5px;
     color: rgba(0,0,0,0.5);
     margin-bottom: auto;
+    font-family: 'Inter', sans-serif;
 }
-
+#ver-grupo:hover {
+    background-color:   #00D95E;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 #ajuda {
     margin-top: 40px;
