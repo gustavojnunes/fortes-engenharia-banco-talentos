@@ -11,6 +11,9 @@ nav {
     background: rgba(8, 79, 140, 0.3);
     padding-top: 15px;
     padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .menu-nav > a {
@@ -24,6 +27,14 @@ nav {
 
 .menu-nav > a:hover {
     background-color: rgba(127, 255, 212, 0.486);
+}
+
+.search-bar {
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 40px;
 }
 
 
