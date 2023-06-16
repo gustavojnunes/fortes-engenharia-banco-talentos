@@ -26,6 +26,11 @@
     position: relative;
 }
 
+.usuario {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
 .post .usuario {
   position: absolute;
   top: 10px;
@@ -53,10 +58,10 @@
 
 .post .data {
     position: absolute;
-    top: 37px;
-    left: 130px;
+    top: 40px;
+    left: 140px;
     font-family: 'Inter', sans-serif;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 
 .post .data-1 {
@@ -67,8 +72,10 @@
 
 .post .data-2 {
     position: absolute;
-    top: 37px;
-    left: 140px;
+    top: 40px;
+    left: 155px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7em;
 }
 
 .post .adicionar {
@@ -80,15 +87,42 @@
 
 .post .adicionar1 {
     position: absolute;
-    top: 30px;
-    left: 210px;
+    top: 15px;
+    left: 195px;
     font-family: 'Inter', sans-serif;
 }
 
 .post .adicionar2 {
     position: absolute;
-    top: 30px;
-    left: 220px;
+    top: 15px;
+    left: 215px;
+    font-family: 'Inter', sans-serif;
+}
+
+.adicionar1:hover {
+    cursor: pointer;
+}
+
+.adicionar2:hover {
+    cursor: pointer;
+}
+
+.adicionar1 {
+    position: absolute;
+    width: 190px;
+    height: 41px;
+    background: #B5CBDD;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.adicionar2 {
+    position: absolute;
+    width: 170px;
+    height: 41px;
+    background: #B5CBDD;
+    border: 1px solid #000000;
+    border-radius: 10px;
 }
 
 .comentar {
@@ -136,6 +170,26 @@
     gap: 15px;
 }
 
+.barra-lateral .icone-1{
+    position: absolute;
+    top: 440px;
+    left: 35px;
+}
+
+.barra-lateral .cargo-1{
+    position: absolute;
+    top: 461px;
+    left: 60px;
+}
+
+#mensagem {
+    box-sizing: border-box;
+    width: 233.24px;
+    height: 25px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
 
 #criar-lembrete{
     margin: 10px 10px;
