@@ -487,20 +487,6 @@
     font-size: 25px;
 }
 
-footer {
-    position: absolute;
-    top: 1300px;
-    left: 500px;
-}
-
-footer h3 {
-    display: inline-block;
-    font-size: 20px;
-}
-footer p {
-    display: inline-block;
-    font-size: 15px;
-}
 
 @media (max-width: 760px) {
     aside {
