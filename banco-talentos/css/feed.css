@@ -48,6 +48,7 @@
     top: 60px;
     left: 10px;
     font-family: 'Inter', sans-serif;
+    text-align: center;
 }
 
 .post .data {
@@ -107,6 +108,12 @@
     height: 190px;
     width: 370px;
     padding-bottom:10px;
+    border-radius: 20px;
+}
+
+.img-post-2 {
+    width: 380px;
+    height: 200px;
     border-radius: 20px;
 }
 
